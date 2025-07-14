@@ -1,0 +1,82 @@
+Welcome to Tic-Tac-Toe!
+You are 'X' and the AI is 'O'
+
+This is how positions are numbered:
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
+
+
+   |   |
+---+---+---
+   |   |
+---+---+---
+   |   |
+
+Choose your move (1-9): 8
+
+AI has made a move.
+
+
+   | O |
+---+---+---
+   |   |
+---+---+---
+   | X |
+
+Choose your move (1-9): 7
+
+AI has made a move.
+
+
+   | O |
+---+---+---
+   |   |
+---+---+---
+ X | X | O
+
+Choose your move (1-9): 7
+⚠️ That cell is already taken. Try again.
+
+   | O |
+---+---+---
+   |   |
+---+---+---
+ X | X | O
+
+Choose your move (1-9): 2
+⚠️ That cell is already taken. Try again.
+
+   | O |
+---+---+---
+   |   |
+---+---+---
+ X | X | O
+
+Choose your move (1-9): 3
+
+AI has made a move.
+
+
+   | O | X
+---+---+---
+   | O |
+---+---+---
+ X | X | O
+
+Choose your move (1-9): 6
+
+AI has made a move.
+
+
+ O | O | X
+---+---+---
+   | O | X
+---+---+---
+ X | X | O
+
+💻 AI wins!
+
+Press Enter to exit...
