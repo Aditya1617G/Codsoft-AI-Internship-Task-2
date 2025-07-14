@@ -89,10 +89,10 @@ while True:
     try:
         move = int(input("Choose your move (1-9): "))
         if move < 1 or move > 9:
-            print("❌ Invalid move. Pick a number from 1 to 9.")
+            print(" Invalid move. Pick a number from 1 to 9.")
             continue
     except ValueError:
-        print("❌ Please enter a valid number.")
+        print(" Please enter a valid number.")
         continue
 
     move_index = move - 1
@@ -101,12 +101,12 @@ while True:
         board[move_index] = YOU
         if check_winner(board, YOU):
             print_board(board)
-            print("🎉 You win!")
+            print(" You win!")
             input("\nPress Enter to exit...")
             break
         if is_board_full(board):
             print_board(board)
-            print("🤝 It's a draw!")
+            print(" It's a draw!")
             input("\nPress Enter to exit...")
             break
 
@@ -121,8 +121,8 @@ while True:
             break
         if is_board_full(board):
             print_board(board)
-            print("🤝 It's a draw!")
+            print(" It's a draw!")
             input("\nPress Enter to exit...")
             break
     else:
-        print("⚠️ That cell is already taken. Try again.")
+        print(" That cell is already taken. Try again.")
