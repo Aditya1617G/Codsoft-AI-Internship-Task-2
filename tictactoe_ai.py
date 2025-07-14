@@ -116,7 +116,7 @@ while True:
 
         if check_winner(board, AI):
             print_board(board)
-            print("💻 AI wins!")
+            print(" AI wins!")
             input("\nPress Enter to exit...")
             break
         if is_board_full(board):
