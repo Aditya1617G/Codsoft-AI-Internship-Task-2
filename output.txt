@@ -38,7 +38,7 @@ AI has made a move.
  X | X | O
 
 Choose your move (1-9): 7
-⚠️ That cell is already taken. Try again.
+ That cell is already taken. Try again.
 
    | O |
 ---+---+---
@@ -47,7 +47,7 @@ Choose your move (1-9): 7
  X | X | O
 
 Choose your move (1-9): 2
-⚠️ That cell is already taken. Try again.
+ That cell is already taken. Try again.
 
    | O |
 ---+---+---
@@ -77,6 +77,6 @@ AI has made a move.
 ---+---+---
  X | X | O
 
-💻 AI wins!
+ AI wins!
 
 Press Enter to exit...
